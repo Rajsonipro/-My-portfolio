@@ -147,7 +147,8 @@ export default function Hero() {
         {/* Photo */}
         <div className="w-80 h-96 rounded-3xl overflow-hidden glass border border-white/10 shadow-2xl glow-cyan hover:glow-purple transition-all duration-500 relative group">
           <img 
-            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop&crop=face" 
+src="/WhatsApp Image 2026-04-10 at 19.32.04.jpeg" 
+
             alt="Raj Soni"
             className="w-full h-full object-cover rounded-3xl group-hover:scale-105 transition-transform duration-500"
             loading="lazy"
