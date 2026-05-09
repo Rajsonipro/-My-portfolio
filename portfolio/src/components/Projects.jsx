@@ -113,7 +113,9 @@ function ProjectCard({ project, index }) {
         {/* Buttons */}
         <div className="flex gap-3">
           <a
+            href="https://github.com/Rajsonipro"
             href="https://github.com"
+            rel="noopener noreferrer"
             target="_blank"
             rel="noopener noreferrer"
             data-cursor-hover

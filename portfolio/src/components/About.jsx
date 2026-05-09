@@ -133,9 +133,9 @@ export default function About() {
             {/* Extra info cards */}
             <div className="grid grid-cols-3 gap-3 mt-6 pt-6 border-t border-white/5">
               {[
-                { value: '10+', label: 'Projects' },
+                { value: '5+', label: 'Projects' },
                 { value: '2+', label: 'Years Coding' },
-                { value: '5+', label: 'Certifications' },
+                { value: '5+', label: 'Certifications in Hackathons' },
               ].map(({ value, label }) => (
                 <div key={label} className="text-center p-3 rounded-xl" style={{ background: 'rgba(0,245,255,0.04)' }}>
                   <div className="font-display font-bold text-xl text-[var(--neon-cyan)]">{value}</div>

@@ -21,7 +21,7 @@
   <strong>
     👉 <a href="https://rajsoni-portfolio.netlify.app">View Live</a> 
     | 
-    <a href="https://github.com/Rajsonipro/-My-portfolio.git">Source Code</a>
+    <a href="https://github.com/rajsonidev/portfolio">Source Code</a>
   </strong>
 </div>
 
@@ -279,5 +279,4 @@ Permission is hereby granted... (see LICENSE)
 [![License](https://img.shields.io/github/license/rajsonidev/portfolio)](LICENSE)
 
 </div>
-
 

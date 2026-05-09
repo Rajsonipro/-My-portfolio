@@ -59,6 +59,15 @@ export default function Hero() {
     document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })
   }
 
+  const downloadResume = () => {
+    const link = document.createElement('a')
+    link.href = '/resume.pdf'
+    link.download = 'Raj_Soni_Resume.pdf'
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+  }
+
   return (
     <section
       ref={ref}
@@ -128,6 +137,13 @@ export default function Hero() {
             View Projects
           </button>
           <button
+            onClick={downloadResume}
+            data-cursor-hover
+            className="glass px-8 py-4 rounded-2xl font-semibold text-lg border border-white/20 hover:border-[var(--neon-cyan)] hover:text-[var(--neon-cyan)] transition-all duration-300"
+          >
+            Download Resume
+          </button>
+          <button
             onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
             data-cursor-hover
             className="glass px-8 py-4 rounded-2xl font-semibold text-lg border border-white/20 hover:border-[var(--neon-cyan)] hover:text-[var(--neon-cyan)] transition-all duration-300"
@@ -147,7 +163,7 @@ export default function Hero() {
         {/* Photo */}
         <div className="w-80 h-96 rounded-3xl overflow-hidden glass border border-white/10 shadow-2xl glow-cyan hover:glow-purple transition-all duration-500 relative group">
           <img 
-src="/WhatsApp Image 2026-04-10 at 19.32.04.jpeg" 
+src="/WhatsApp Image 2026-05-09 at 21.36.05.jpeg"
 
             alt="Raj Soni"
             className="w-full h-full object-cover rounded-3xl group-hover:scale-105 transition-transform duration-500"
