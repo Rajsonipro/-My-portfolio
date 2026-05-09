@@ -12,14 +12,14 @@
 ## 🌐 Live Preview
 
 <div align="center">
-  <a href="https://rajsoni-portfolio.netlify.app">
+  <a href="https://rajsoni-portfolio.vercel.app/">
     <img src="https://via.placeholder.com/800x400/0f172a/00f5ff.png?text=Live+Demo" alt="Live Demo" width="800"/>
   </a>
 </div>
 
 <div align="center">
   <strong>
-    👉 <a href="https://rajsoni-portfolio.netlify.app">View Live</a> 
+    👉 <a href="https://rajsoni-portfolio.vercel.app/">View Live</a> 
     | 
     <a href="https://github.com/rajsonidev/portfolio">Source Code</a>
   </strong>
