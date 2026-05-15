@@ -105,8 +105,8 @@ export default function Hero() {
 
         {/* Greeting */}
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}>
-        <h1 className="font-display font-black text-4xl md:text-6xl lg:text-7xl leading-tight mb-4 tracking-tight gradient-text bg-clip-text text-transparent drop-shadow-2xl">
-            Hi, I'm <span className="text-glow-cyan">Raj Soni</span>
+        <h1 className="font-display font-black text-4xl md:text-6xl lg:text-7xl leading-tight mb-4 tracking-tight drop-shadow-2xl">
+            Hi, I'm <span className="font-mono font-black text-[var(--neon-cyan)] drop-shadow-[0_0_16px_rgba(0,245,255,0.9)]">Raj Soni</span>
           </h1>
         </motion.div>
 
@@ -163,7 +163,7 @@ export default function Hero() {
         {/* Photo */}
         <div className="w-80 h-96 rounded-3xl overflow-hidden glass border border-white/10 shadow-2xl glow-cyan hover:glow-purple transition-all duration-500 relative group">
           <img 
-src="/WhatsApp Image 2026-05-09 at 21.36.05.jpeg"
+  src="/WhatsApp Image 2026-05-09 at 21.36.05.jpeg"
 
             alt="Raj Soni"
             className="w-full h-full object-cover rounded-3xl group-hover:scale-105 transition-transform duration-500"
